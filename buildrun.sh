@@ -1,5 +1,5 @@
 #! /bin/bash
 
-dts devel build -f -H kigebot.local --privileged
+dts devel build -f -H taobot.local --privileged
 
-dts devel run -H kigebot.local -- --privileged
+dts devel run -H taobot.local -- --privileged
